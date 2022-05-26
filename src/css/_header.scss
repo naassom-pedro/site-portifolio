@@ -1,0 +1,24 @@
+header {
+    display: flex !important;
+    align-items: center;
+    justify-content: space-between;
+    background-color: $secondary;
+    height: 60px;
+    color: $tertiary;
+    font-family: "Roboto", Arial, Helvetica, sans-serif !important;
+
+    nav {
+        display: flex;
+        align-items: center;
+        ul {
+            display: flex;
+            justify-content: space-between;
+        }
+        .menu {
+            width: 40px;
+            border: none;
+            background: none;
+            cursor: pointer;
+        }
+    }
+}
